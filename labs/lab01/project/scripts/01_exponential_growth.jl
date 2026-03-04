@@ -6,6 +6,8 @@ using DrWatson
 @quickactivate "project"
 using DifferentialEquations
 using Plots
+default(fmt = :png)
+gr(format=:png)
 using DataFrames
 using JLD2
 

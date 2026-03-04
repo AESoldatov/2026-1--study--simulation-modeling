@@ -2,9 +2,10 @@ using DrWatson
 @quickactivate "project"
 using DifferentialEquations
 using Plots
+default(fmt = :png)
+gr(format=:png)
 using DataFrames
 using JLD2
-
 script_name = splitext(basename(PROGRAM_FILE))[1]
 mkpath(plotsdir(script_name))
 mkpath(datadir(script_name))

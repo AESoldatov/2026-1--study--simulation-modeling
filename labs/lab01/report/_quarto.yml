@@ -32,12 +32,14 @@ format:
     toc: true
     number-sections: true
     toc-depth: 2
+    fig-format: png
   ### Pdf output format
   pdf:
     # pdf-engine: xelatex
     ### minted support
     # filters:
     #   - minted-quarto
+    fig-format: png
     toc: true
     number-sections: true
     colorlinks: false

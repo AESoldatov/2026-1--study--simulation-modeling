@@ -89,6 +89,8 @@ title: "Лабораторная работа №1"
 
 ![Графики](image/ЛР1-10.png){#fig-010 width=70%}
 
+{{< include ../project/markdown/01_exponential_growth/01_exponential_growth.qmd >}}
+
 # Выводы
 
 Познакомился с ЯП Julia
