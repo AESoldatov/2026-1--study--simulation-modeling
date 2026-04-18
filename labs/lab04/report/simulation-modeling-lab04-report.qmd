@@ -12,7 +12,7 @@ author:
       address: ул. Миклухо-Маклая, д. 6
 
 ## Title
-title: "Лабораторная работа №5"
+title: "Лабораторная работа №4"
 ---
 
 # Цель работы
@@ -70,7 +70,7 @@ title: "Лабораторная работа №5"
 
 ![Установка пакетов](image/2.png){#fig-002 width=70%}
 
-Создал файл "src/DiningPhilosophers.jl" ([рис. @fig-003]).
+Создал файл "src/sir_model.jl" ([рис. @fig-003]).
 
 ![Создание файла](image/3.png){#fig-003 width=70%}
 
@@ -78,7 +78,7 @@ title: "Лабораторная работа №5"
 
 ![Код](image/4.png){#fig-004 width=70%}
 
-Создал файл "scripts/dining_philosophers.jl", запустил его и потом сгенерировал производные форматы ([рис. @fig-005]).
+Создал файл "scripts/sir_run_basic.jl" ([рис. @fig-005]).
 
 ![Создание файла](image/5.png){#fig-005 width=70%}
 
@@ -86,60 +86,106 @@ title: "Лабораторная работа №5"
 
 ![Код](image/6.png){#fig-006 width=70%}
 
-Проверил создание графика с арбитром ([рис. @fig-061]).
+Проверил создание графика ([рис. @fig-007]).
 
-![График1](image/6-1.png){#fig-061 width=70%}
+![График](image/7.png){#fig-007 width=70%}
 
-Проверил создание графика классической сети ([рис. @fig-062]).
+Сгенерировал производные форматы ([рис. @fig-008]).
 
-![График2](image/6-2.png){#fig-062 width=70%}
+![Создание форматов](image/8.png){#fig-008 width=70%}
 
-Запустил блокнот в jupyter notebook ([рис. @fig-007]).
+Запустил блокнот в jupyter notebook ([рис. @fig-009]).
 
-![jupyter notebook](image/7.png){#fig-007 width=70%}
+![jupyter notebook](image/9.png){#fig-009 width=70%}
 
-Создал файл "scripts/dining_philosophers_animation.jl", запустил его и сгенерировал производные форматы ([рис. @fig-008]).
+Создал файл "scripts/sir_scan_beta.jl" и прописал предложенный код ([рис. @fig-010]).
 
-![Создание скрипта и его запуск](image/8.png){#fig-008 width=70%}
+![Создание скрипта](image/10.png){#fig-010 width=70%}
 
-Написал предложенный код ([рис. @fig-009]).
+Выполнил файл и проанализировал результат ([рис. @fig-011]).
 
-![Код](image/9.png){#fig-009 width=70%}
+![Результат](image/11.png){#fig-011 width=70%}
 
-Запустил блокнот в jupyter notebook ([рис. @fig-010]).
+Проверил создание графика ([рис. @fig-012]).
 
-![jupyter notebook](image/10.png){#fig-010 width=70%}
+![График](image/12.png){#fig-012 width=70%}
 
-Проверил создание анимации ([рис. @fig-101]).
+Сгенерировал производные форматы ([рис. @fig-013]).
 
-![Анимация скрин](image/10-1.png){#fig-101 width=70%}
+![Производные форматы](image/13.png){#fig-013 width=70%}
 
-Создал файл "scripts/dining_philosophers_report.jl", запустил его и сгенерировал производные форматы ([рис. @fig-011]).
+Запустил блокнот в jupyter notebook ([рис. @fig-014]).
 
-![Создание файла и его запуск](image/11.png){#fig-011 width=70%}
+![jupyter notebook](image/14.png){#fig-014 width=70%}
 
-Вот предложенный код ([рис. @fig-012]).
+Создал файл "scripts/sir_migration_effect.jl" ([рис. @fig-015]).
 
-![Написание кода](image/12.png){#fig-012 width=70%}
+![Создание файла](image/15.png){#fig-015 width=70%}
 
-Выполнил код из jupyter notebook ([рис. @fig-013]).
+Написал предложенный код ([рис. @fig-016]).
 
-![jupyter notebook](image/13.png){#fig-013 width=70%}
+![Написание кода](image/16.png){#fig-016 width=70%}
 
-Проверил создание графика([рис. @fig-131]).
+Проанализировал результат ([рис. @fig-017]).
 
-![График отчета](image/13-1.png){#fig-131 width=70%}
+![Результат](image/17.png){#fig-017 width=70%}
 
-Проверил, наличие всех ссылок на Quarto отчеты ([рис. @fig-014]).
+Сгенерировал производные форматы ([рис. @fig-018]).
 
-![Ссылки](image/14.png){#fig-014 width=70%}
+![Работа с файлом](image/18.png){#fig-018 width=70%}
+
+Выполнил код из jupyter notebook ([рис. @fig-019]).
+
+![jupyter notebook](image/19.png){#fig-019 width=70%}
+
+Создал файл "scripts/sir_optimize_parameters.jl" ([рис. @fig-020]).
+
+![Новый файл](image/20.png){#fig-020 width=70%}
+
+Написал предложенный код ([рис. @fig-021]).
+
+![Код](image/21.png){#fig-021 width=70%}
+
+Сгенерировал производные форматы ([рис. @fig-022]).
+
+![Работа с файлом](image/22.png){#fig-022 width=70%}
+
+Выполнил код из jupyter notebook ([рис. @fig-023]).
+
+![jupyter notebook](image/23.png){#fig-023 width=70%}
+
+Создал файл " scripts/sir_visualize_dynamics.jl" и прописал предложенный код ([рис. @fig-024]).
+
+![Код](image/24.png){#fig-024 width=70%}
+
+Проверил создание графика ([рис. @fig-025]).
+
+![График](image/25.png){#fig-025 width=70%}
+
+Сгенерировал производные форматы ([рис. @fig-026]).
+
+![Производные форматы](image/26.png){#fig-026 width=70%}
+
+Выполнил код из jupyter notebook ([рис. @fig-027]).
+
+![jupyter notebook](image/27.png){#fig-027 width=70%}
+
+Проверил, наличие всех ссылок на Quarto отчеты ([рис. @fig-028]).
+
+![Ссылки](image/28.png){#fig-028 width=70%}
+
+Выполнил одно из дополнительных заданий ([рис. @fig-029]).
+
+![Нашел R_0](image/29.png){#fig-029 width=70%}
 
 
 # Quarto отчеты
 
-{{< include ../project/markdown/dining_philosophers/dining_philosophers.qmd >}}
-{{< include ../project/markdown/dining_philosophers_animation/dining_philosophers_animation.qmd >}}
-{{< include ../project/markdown/dining_philosophers_report/dining_philosophers_report.qmd >}}
+{{< include ../project/markdown/sir_run_basic/sir_run_basic.qmd >}}
+{{< include ../project/markdown/sir_scan_beta/sir_scan_beta.qmd >}}
+{{< include ../project/markdown/sir_migration_effect/sir_migration_effect.qmd >}}
+{{< include ../project/markdown/sir_optimize_parameters/sir_optimize_parameters.qmd >}}
+{{< include ../project/markdown/sir_visualize_dynamics/sir_visualize_dynamics.qmd >}}
 
 
 # Выводы
