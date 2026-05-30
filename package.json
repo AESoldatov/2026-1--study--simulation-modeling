@@ -1,6 +1,6 @@
 {
   "name": "simulation-modeling",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Имитационное моделирование",
   "main": "index.js",
   "repository": "https://github.com/AESoldatov/2026-1--study--simulation-modeling",
